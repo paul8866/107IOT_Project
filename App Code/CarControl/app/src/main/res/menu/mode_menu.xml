@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id = "@+id/car_exit"
+        android:title="Exit"
+        app:showAsAction="always"/>
+
+    <item
+        android:id = "@+id/music_mode"
+        android:title="Music"
+        android:icon="@drawable/music_icon"
+        app:showAsAction="always">
+
+        <menu>
+            <item  android:id = "@+id/song0"
+                android:title="Song OFF" />
+
+            <item  android:id = "@+id/song1"
+                   android:title="Song 1" />
+
+            <item  android:id = "@+id/song2"
+                android:title="Song 2" />
+
+            <item  android:id = "@+id/song3"
+                android:title="Song 3" />
+
+            <item  android:id = "@+id/song4"
+                android:title="Song 4" />
+
+        </menu>
+
+    </item>
+
+</menu>

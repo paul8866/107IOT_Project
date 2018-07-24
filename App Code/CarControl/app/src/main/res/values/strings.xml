@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">CarControl</string>
+    <string-array name="song_name">
+        <item>Song 1</item>
+        <item>Song 2</item>
+        <item>Song 3</item>
+        <item>Song 4</item>
+    </string-array>
+</resources>
